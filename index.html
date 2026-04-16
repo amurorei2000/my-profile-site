@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>박원석 | Developer Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle" aria-label="테마 전환" class="theme-toggle">🌙</button>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="header-content">
+      <h1 class="name">박원석</h1>
+      <p class="title">Backend Developer | Cloud Engineer</p>
+      <p class="subtitle">안정적이고 확장 가능한 시스템을 설계하고 구축하는 개발자</p>
+
+      <div class="contact-links">
+        <a href="mailto:wonseok@example.com" class="contact-link" title="이메일">
+          <span class="icon">📧</span> Email
+        </a>
+        <a href="https://github.com/wonseokpark" target="_blank" class="contact-link" title="GitHub">
+          <span class="icon">🔗</span> GitHub
+        </a>
+        <a href="https://linkedin.com/in/wonseokpark" target="_blank" class="contact-link" title="LinkedIn">
+          <span class="icon">💼</span> LinkedIn
+        </a>
+        <a href="https://blog.example.com" target="_blank" class="contact-link" title="블로그">
+          <span class="icon">📝</span> Blog
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">기술 스택</h2>
+
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>프로그래밍 언어</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Go</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Bash</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>프레임워크 & 라이브러리</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">FastAPI</span>
+          <span class="skill-tag">Django</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>클라우드 & DevOps</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">Terraform</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>개발 도구</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Docker Compose</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <h2 class="section-title">경력</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="job-title">Senior Backend Engineer</h3>
+          <p class="company">Tech Corp | 서울, 대한민국</p>
+          <p class="period">2022년 3월 — 현재</p>
+          <ul class="job-description">
+            <li>Python/FastAPI 기반 마이크로서비스 아키텍처 설계 및 구현</li>
+            <li>AWS (ECS, RDS, Lambda)를 활용한 클라우드 인프라 구축</li>
+            <li>팀 리드로서 4명의 주니어 개발자 멘토링</li>
+            <li>API 성능 최적화로 응답시간 40% 단축</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="job-title">Backend Developer</h3>
+          <p class="company">StartUp Labs | 판교, 대한민국</p>
+          <p class="period">2020년 6월 — 2022년 2월</p>
+          <ul class="job-description">
+            <li>Django 프레임워크로 RESTful API 개발</li>
+            <li>PostgreSQL 데이터베이스 설계 및 쿼리 최적화</li>
+            <li>Docker & Kubernetes를 이용한 배포 자동화</li>
+            <li>GraphQL API 구현으로 클라이언트 개발 효율성 향상</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="job-title">Junior Backend Developer</h3>
+          <p class="company">WebServices Inc | 서울, 대한민국</p>
+          <p class="period">2019년 1월 — 2020년 5월</p>
+          <ul class="job-description">
+            <li>Node.js / Express로 REST API 개발</li>
+            <li>MongoDB 데이터베이스 관리</li>
+            <li>GitHub Actions를 이용한 CI/CD 구축</li>
+            <li>로깅 및 모니터링 시스템 개선</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">주요 프로젝트</h2>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>API Gateway Platform</h3>
+        <p class="project-description">
+          다중 마이크로서비스를 관리하는 통합 API 게이트웨이 플랫폼 개발
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">Redis</span>
+          <span class="tech-tag">Docker</span>
+        </div>
+        <a href="https://github.com/wonseokpark/api-gateway" target="_blank" class="project-link">
+          GitHub →
+        </a>
+      </article>
+
+      <article class="project-card">
+        <h3>Real-time Data Pipeline</h3>
+        <p class="project-description">
+          실시간 데이터 처리 파이프라인으로 데이터 레이턴시 70% 감소
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Go</span>
+          <span class="tech-tag">Kafka</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">Kubernetes</span>
+        </div>
+        <a href="https://github.com/wonseokpark/realtime-pipeline" target="_blank" class="project-link">
+          GitHub →
+        </a>
+      </article>
+
+      <article class="project-card">
+        <h3>Monitoring Dashboard</h3>
+        <p class="project-description">
+          시스템 메트릭 및 로그를 시각화하는 모니터링 대시보드
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Prometheus</span>
+          <span class="tech-tag">Grafana</span>
+        </div>
+        <a href="https://github.com/wonseokpark/monitoring-dashboard" target="_blank" class="project-link">
+          GitHub →
+        </a>
+      </article>
+
+      <article class="project-card">
+        <h3>Distributed Cache Layer</h3>
+        <p class="project-description">
+          고성능 분산 캐시 레이어로 데이터베이스 부하 50% 감소
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Go</span>
+          <span class="tech-tag">Redis Cluster</span>
+          <span class="tech-tag">AWS</span>
+        </div>
+        <a href="https://github.com/wonseokpark/cache-layer" target="_blank" class="project-link">
+          GitHub →
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 박원석. 모든 권리 보유.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

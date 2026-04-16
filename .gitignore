@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+
+# Node (미래 확장 대비)
+node_modules/
+npm-debug.log*
+
+# 빌드 산출물
+dist/
+build/
