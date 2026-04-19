@@ -10,7 +10,7 @@
 *.swo
 
 # Claude Code
-.claude/
+#.claude/
 
 # Node (미래 확장 대비)
 node_modules/
